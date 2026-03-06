@@ -7,4 +7,7 @@ def login():
     else:
         print("Invalid login")
 
-login()temporary change
+login()
+
+# Temporary change for Git Practice
+print("Secure Software Design Assignment - Git Practice")
