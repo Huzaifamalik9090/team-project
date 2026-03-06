@@ -4,19 +4,13 @@ on: [push, pull_request]
 jobs:
  build:
   runs-on: ubuntu-latest
-
   steps:
    - uses: actions/checkout@v3
-
    - name: Set up Python
      uses: actions/setup-python@v3
      with:
       python-version: "3.10"
-
-   - name: Run main.py check
-     # This runs your script and provides 'admin' and '1234' as inputs automatically
-     run: |
-      python main.py <<EOF
-      admin
-      1234
-      EOF
+   - name: Install dependencies
+     run: pip install -r requirements.txt
+   - name: Test
+     run: pytest
