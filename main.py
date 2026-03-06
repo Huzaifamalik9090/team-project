@@ -8,6 +8,4 @@ def login():
         print("Invalid login")
 
 login()
-
-# Temporary change for Git Practice
-print("Conflict branch version")
+print("Main and Conflict branch merged")
