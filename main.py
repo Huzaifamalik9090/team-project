@@ -9,5 +9,5 @@ def login():
 
 login()
 
-# Temporary change for Git Practice
-print("Secure Software Design Assignment - Git Practice")
+# This line is modified on the conflict-branch
+print("Conflict Branch: Security Update v2")
