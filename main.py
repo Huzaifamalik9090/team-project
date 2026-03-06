@@ -10,4 +10,4 @@ def login():
 login()
 
 # Temporary change for Git Practice
-print("Main branch version")
+print("Conflict branch version")
